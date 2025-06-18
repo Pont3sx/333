@@ -22,48 +22,65 @@ body {
 body {
     color: white;
 }
-.conteiner-musica {
-    position: relative;
-    left: 0px;
-    margin-bottom: -5px;
-    border: 8px solid rgb(0, 39, 71, 1);
-    background-color: rgb(0, 39, 71, 1);
-    padding: 10px 20px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-}
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap%27');
-.botao {
-    display: inline-flex;
-    align-items: center;
-    padding: 8px 12px;
-    background-color: #33cf03;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0,3s, transform 0.2s;
-    font-size: 16px;
-    font-family: 'Orbitron', sans-serif;
+.container-musica {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 39, 71);
+  border: 8px solid rgb(0, 39, 71);
+  padding: 4px 20px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
 }
-.botao:hover {
-    background-color: #33cf035b;
-    transform: scale(1.05);
+.botoes {
+  display: flex;
+  gap: 10px;
 }
 .botao-yt {
-    display: inline-flex;
-    align-items: center;
-    padding: 8px 12px;
-    background-color: #ee0000;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0,3s, transform 0.2s;
-    font-size: 16px;
-    font-family: 'Orbitron', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #ee0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+  transition: background-color 0,3s, trasnform 0.2s;
 }
-.botao-yt:hover {
-    background-color: #ee00006e;
-    transform: scale(1.05);
+.botao-yt:hover{
+  background-color: #e25757;
+  transform: scale(1.05);
 }
-
+.botao {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #33cf03;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+  transition: background-color 0,3s, trasnform 0.2s;
+}
+.botao:hover {
+  background-color: #7eaa70;
+  transform: scale(1.05);
+}
+.home {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 3px 4px;
+  text-align: center;
+  display: inline-flex;
+  border-radius: 5px;
+  transition: background-color 0,3s, trasnform 0.2s;
+}
+.home:hover {
+  background-color: rgb(4, 82, 145);
+  transform: scale(1.05);
+}
