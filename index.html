@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="conteiner">
-    <img src="777.png" alt="Logo 30PRAUM" class="logo">
+    <img src="30.png" alt="Logo 30PRAUM" class="logo">
         
     <div class="texto-home">
         <div class="titulos">
@@ -16,11 +16,11 @@
             <a href="" class="home">FEEDBACK</a>
         </div>
 
-     <p>O que representa o álbum 333 do Matuê Lançado em 9 de setembro de 2024, o álbum 333 representa um marco na carreira de Matuê e no trap nacional. Com 12 faixas, o projeto evidencia a maturidade artística do cantor cearense, trazendo parcerias de peso como Teto, Veigh e Brandão85. A estética do álbum continua explorando elementos visuais e simbólicos relacionados ao número 333, frequentemente associado a equilíbrio espiritual, evolução e conexão com planos superiores — temas que reforçam o conceito místico e introspectivo do disco.
- <br>
-Musicalmente, 333 consolida a mistura de estilos que define Matuê, unindo trap, R&B, rock e referências da música pop contemporânea. As letras abordam temas como fama, identidade, reflexões existenciais e conquistas, sempre com uma abordagem visual e sonora que transcende o padrão do trap brasileiro tradicional.
- <br>
-Além do conteúdo artístico, o impacto do álbum também foi comercial: 333 bateu recordes ao se tornar a maior estreia de um álbum brasileiro no Spotify, com mais de 16 milhões de streams nas primeiras 24 horas. Esse feito reforça não só a força da base de fãs de Matuê, mas também sua importância no crescimento do trap como um dos principais gêneros musicais do país.
+    <p> O que representa o álbum 333 do Matuê Lançado em 9 de setembro de 2024, o álbum 333 representa um marco na carreira de Matuê e no trap nacional. Com 12 faixas, o projeto evidencia a maturidade artística do cantor cearense, trazendo parcerias de peso como Teto, Veigh e Brandão85. A estética do álbum continua explorando elementos visuais e simbólicos relacionados ao número 333, frequentemente associado a equilíbrio espiritual, evolução e conexão com planos superiores — temas que reforçam o conceito místico e introspectivo do disco. </p>
+ 
+    <p> Musicalmente, 333 consolida a mistura de estilos que define Matuê, unindo trap, R&B, rock e referências da música pop contemporânea. As letras abordam temas como fama, identidade, reflexões existenciais e conquistas, sempre com uma abordagem visual e sonora que transcende o padrão do trap brasileiro tradicional. </p>
+ 
+    <p> Além do conteúdo artístico, o impacto do álbum também foi comercial: 333 bateu recordes ao se tornar a maior estreia de um álbum brasileiro no Spotify, com mais de 16 milhões de streams nas primeiras 24 horas. Esse feito reforça não só a força da base de fãs de Matuê, mas também sua importância no crescimento do trap como um dos principais gêneros musicais do país.
 Mais do que um conjunto de músicas, 333 é uma obra conceitual que confirma Matuê como um dos artistas mais inovadores e influentes da música urbana brasileira.</p>
 <section>
     <h3>Músicas do Álbum</h3>
@@ -128,23 +128,64 @@ Mais do que um conjunto de músicas, 333 é uma obra conceitual que confirma Mat
         Conte-nos!
     </p>
 </section>
-<form action="processa_formulario.php" method="post">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
+<form>
+  <div class="container-form">
+    <div class="form-group">
+      <label for="text">Nome:</label>
+      <input type="text" id="nome" name="nome">
+    </div>
+  </div>  
+  <div class="container-form">
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email">
+    </div>
+  </div>  
+  <div class="container-form">
+    <div class="form-group">
+      <label for="faixa">Faixa preferida:</label>
+      <select name="fiaxa" id="faixa">
+        <option value="">Selecione</option>
+        <option value="faixa 1">Crack com Mussilon</option>
+        <option value="faixa 2">Imagina essa Cenário</option>
+        <option value="faixa 3">Isso é Sério</option>
+        <option value="faixa 4">1993</option>
+        <option value="faixa 5">4Tal</option>
+        <option value="faixa 6">O som</option>
+        <option value="faixa 7">04AM</option>
+        <option value="faixa 8">Castlevania</option>
+        <option value="faixa 9">V de Vilão</option>
+        <option value="faixa 10">Maria</option>
+        <option value="faixa 11">333</option>
+        <option value="faixa 12">Like This!</option>
+      </select>
+    </div>
+  </div>
+  <div class="container-form">
+    <div class="form-group">
+      <label for="satisfaçao">Nível de satisfação</label>
+      <select name="satisfaçao" id="satisfaçao">
+        <option value="">Selecione</option>
+        <option value="nivel 1">Péssimo</option>
+        <option value="nivel 2">Ruim</option>
+        <option value="nivel 3">Regular</option>
+        <option value="nivel 3">Bom</option>
+        <option value="nivel 4">Excelente</option>
+      </select>
+    </div>
+  </div>
+    <div class="container-form">
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <input type="text" id="mensagem" name="mensagem">
+      </div>
+    </div>  
+      <div class="button-form">
+        <button type="submit">Enviar</button>
+      </div>
+  </div>
+</form>
 
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="faixa preferida">Faixa preferida:</label><br>
-        <input type="text" id="faixa preferida" name="faixa preferida" required><br><br>
-
-        <label for="Nivel">Nivel de satisfação:</label><br>
-        <input type="text" id="Nivel" name="Nivel" required><br><br> 
-
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
-
-        <input type="submit" value="Enviar">
 <footer>
     
 </footer>
